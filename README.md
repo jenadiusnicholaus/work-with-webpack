@@ -8,7 +8,7 @@ HTML CSS Javascript, webpack
 
 # Live Demo
 
-[link to Awesome book]()
+[link to work with webpack]()
 
 
 # Getting started
@@ -16,8 +16,7 @@ HTML CSS Javascript, webpack
 To get a local copy up and running follow these simple example steps.
 
 ```
- git clone 
- Coming soon -----
+ git clone git+https://github.com/jenadiusnicholaus/work-with-webpack.git
  
 ```
 
