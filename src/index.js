@@ -2,9 +2,6 @@ import _ from 'lodash';
 import printMe from './print.js';
 import './style.css';
 
-
-
-
 function component() {
     const element = document.createElement('div');
     const btn = document.createElement('button');
@@ -21,3 +18,11 @@ function component() {
   }
   
   document.body.appendChild(component());
+
+
+  if (module.hot) {
+    module.hot.accept('./print.js', function() {
+      console.log('Accepting the updated printMe module!');
+      printMe();
+    })
+  }
